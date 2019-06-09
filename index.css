@@ -1,0 +1,45 @@
+
+   .learning-path .container {
+    background-color: #eee;
+   }
+   
+
+   @media only screen and (min-width: 0px) {
+   
+   #details-list{position:relative;}
+   
+   }
+   @media only screen and (min-width: 0px) {
+   #details-list .details{display:flex;flex-wrap:wrap;justify-content:center;margin:100px 0px 40px;}
+   }
+   @media only screen and (min-width: 0px) {
+   #details-list .details .detail{ max-height: 300px;
+   padding: 20px;
+   max-width: 250px;
+   display: flex;
+   flex-direction: column;
+   justify-content: flex-start;
+   align-items: center;
+   
+   border-radius: 5px;
+   
+   margin: 5px 15px;}
+   
+   }
+   
+   @media only screen and (min-width: 0px){
+   #details-list{background-image: url("https://d24cdstip7q8pz.cloudfront.net/t/t20161026195759/content/common/images/sbg-1404.png");
+       background-position: top left;
+   min-height: 500px;
+   background-size: cover;
+   background-repeat: no-repeat;
+   padding: 30px 0px;
+   }
+   
+   }
+
+   .timer {
+    width: 100px;
+    font-size: 2.5em;
+    text-align: center;
+}
